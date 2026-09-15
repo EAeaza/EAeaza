@@ -1,55 +1,53 @@
 # Azamat Egamberdiev
 
-I build the internal systems that commerce businesses run on — settlement reconciliation,
-tax and e-invoicing, demand forecasting, warehouse control. Tashkent, Uzbekistan.
+I build the internal systems that commerce businesses run on — settlement reconciliation, tax and
+e-invoicing, demand forecasting, warehouse control. Tashkent, Uzbekistan.
 
-Most of my work is operational software for a live business, so the repositories are private.
-What follows is what they do and roughly how big they are.
+Most of it is operational software for live businesses, so the code is private. Each project has
+a public page instead: the problem, how it works, how it is verified, and screenshots of the real
+code running on synthetic data.
+
+**Portfolio → [https://EAeaza.github.io/](https://EAeaza.github.io/)**
 
 ---
 
-### Marketplace control tower · Python · 655 commits
+### [Marketplace Control Tower](https://github.com/EAeaza/marketplace-control-tower)
+Pulls marketplace, tax, bank and 1C data into one database, reconciles the sources against each other, forecasts demand and answers questions over read-only SQL.
+<br><sub>since Jun 2026, active · 709 commits · Python · SQLite</sub>
 
-The system a distributor's operations actually run on. It reconciles settlement reports from
-three marketplaces against the accounting ledger and fiscal receipt data, finds the gaps, and
-explains them. On top of that sits demand forecasting and procurement cover, VAT position
-calculation, and a Telegram bot that answers questions about stock and money in plain language.
+### [E-Invoice Stock Ledger](https://github.com/EAeaza/einvoice-stock-ledger)
+Rebuilds a wholesaler's item-level stock from its e-invoices on top of a 1C opening balance, traces every amount to a source line, and routes judgment calls to people.
+<br><sub>since Jul 2026, active · 245 commits · JavaScript (Node.js) · Python</sub>
 
-About 1,200 Python modules. The hard part was never the code — it was that three marketplaces,
-an accounting system and the tax authority all disagree about the same transaction, and
-something has to decide which one is right.
+### [Reklama Radar](https://github.com/EAeaza/reklama-radar)
+Works out which advertisers ran on a roadside LED screen from a two-minute phone video — built on a parallel experiment harness where most results were honestly negative.
+<br><sub>Aug 2026 · 173 commits · Python · TypeScript</sub>
 
-### Advertising analytics · Python, TypeScript · 173 commits
+### [GrantPulse](https://github.com/EAeaza/grantpulse-showcase)
+Finds scholarships and grants, checks every fact against the official page, and publishes source-backed posts to a Telegram channel.
+<br><sub>Jun 2026 – Jul 2026 · 42 commits · Python · SQLite</sub>
 
-OCR over advertising panels, brand detection, and clustering of what ran where. Built as a
-sweep harness — parallel branches per experiment, so variants could be compared against the
-same captured dataset rather than re-shot each time.
-
-### Grant discovery · Python · 42 commits
-
-Finds and tracks grant opportunities, keeps a captured snapshot of each source so a listing
-that disappears is still auditable later.
-
-### Product & warehouse tooling · JavaScript, Python · 184 commits
-
-Stock transfer workflows, an automation MVP against the accounting system, and export
-pipelines for product cards and error reports.
+### [Agent Fleet Hub](https://github.com/EAeaza/agent-fleet-hub)
+Keeps one developer's machines, coding-agent sessions and GitHub identity in sync — unattended, with its safety rules enforced in code.
+<br><sub>since Sep 2026, active · 27 commits · Python · PowerShell · Bash</sub>
 
 ---
 
 ### How I work
 
-Almost all of this was built with coding agents — **Claude Code and Codex, ~1,900 sessions
-across three machines** over the past year. That is a working method, not a shortcut: the
-agent writes most of the code, and my job is to specify the problem precisely, define the
-invariants, and adversarially audit what comes back. A lot of these repos contain their own
-audit harnesses for exactly that reason.
-
-I also keep the machines themselves in sync through a small coordination hub, because work
-spread across three computers otherwise drifts into fourteen copies of the same project.
+Almost all of this was built with coding agents — **Claude Code and Codex, 2,192
+sessions across 3 machines**. That is a working method, not a shortcut: the agent
+writes most of the code; my job is to specify the problem precisely, define the invariants, and
+adversarially audit what comes back. Several of these projects carry their own audit harnesses
+for exactly that reason.
 
 **Working with:** Python · JavaScript / TypeScript · PowerShell · SQLite · marketplace and
 tax-authority APIs · 1C · Telegram bots
 
-Earlier public work: [ShakyGround](https://github.com/EAeaza/ShakyGround) — an earthquake app
-in Kotlin, 2023.
+**Contact:** eazamat360@gmail.com, or open an issue on any project page to request a walkthrough
+or read access.
+
+Earlier public work: [ShakyGround](https://github.com/EAeaza/ShakyGround) — an earthquake app in
+Kotlin, 2023.
+
+<sub>Figures on this page are generated from the repositories and refresh automatically.</sub>
