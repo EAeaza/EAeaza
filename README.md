@@ -25,11 +25,11 @@ Works out which advertisers ran on a roadside LED screen from a two-minute phone
 
 ### [GrantPulse](https://github.com/EAeaza/grantpulse-showcase)
 Finds scholarships and grants, checks every fact against the official page, and publishes source-backed posts to a Telegram channel.
-<br><sub>since Jun 2026, active · 45 commits · Python · SQLite</sub>
+<br><sub>since Jun 2026, active · 47 commits · Python · SQLite</sub>
 
 ### [Agent Fleet Hub](https://github.com/EAeaza/agent-fleet-hub)
 Keeps one developer's machines, coding-agent sessions and GitHub identity in sync — unattended, with its safety rules enforced in code.
-<br><sub>since Sep 2026, active · 52 commits · Python · PowerShell · Bash</sub>
+<br><sub>since Sep 2026, active · 63 commits · Python · PowerShell · Bash</sub>
 
 ---
 
