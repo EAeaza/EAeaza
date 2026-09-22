@@ -29,13 +29,13 @@ Finds scholarships and grants, checks every fact against the official page, and 
 
 ### [Agent Fleet Hub](https://github.com/EAeaza/agent-fleet-hub)
 Keeps one developer's machines, coding-agent sessions and GitHub identity in sync — unattended, with its safety rules enforced in code.
-<br><sub>since Sep 2026, active · 67 commits · Python · PowerShell · Bash</sub>
+<br><sub>since Sep 2026, active · 68 commits · Python · PowerShell · Bash</sub>
 
 ---
 
 ### How I work
 
-Almost all of this was built with coding agents — **Claude Code and Codex, 2,219
+Almost all of this was built with coding agents — **Claude Code and Codex, 2,221
 sessions across 3 machines**. That is a working method, not a shortcut: the agent
 writes most of the code; my job is to specify the problem precisely, define the invariants, and
 adversarially audit what comes back. Several of these projects carry their own audit harnesses
