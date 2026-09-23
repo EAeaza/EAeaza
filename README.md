@@ -25,17 +25,17 @@ Works out which advertisers ran on a roadside LED screen from a two-minute phone
 
 ### [GrantPulse](https://github.com/EAeaza/grantpulse-showcase)
 Finds scholarships and grants, checks every fact against the official page, and publishes source-backed posts to a Telegram channel.
-<br><sub>since Jun 2026, active · 47 commits · Python · SQLite</sub>
+<br><sub>since Jun 2026, active · 60 commits · Python · SQLite</sub>
 
 ### [Agent Fleet Hub](https://github.com/EAeaza/agent-fleet-hub)
 Keeps one developer's machines, coding-agent sessions and GitHub identity in sync — unattended, with its safety rules enforced in code.
-<br><sub>since Sep 2026, active · 68 commits · Python · PowerShell · Bash</sub>
+<br><sub>since Sep 2026, active · 69 commits · Python · PowerShell · Bash</sub>
 
 ---
 
 ### How I work
 
-Almost all of this was built with coding agents — **Claude Code and Codex, 2,221
+Almost all of this was built with coding agents — **Claude Code and Codex, 2,256
 sessions across 3 machines**. That is a working method, not a shortcut: the agent
 writes most of the code; my job is to specify the problem precisely, define the invariants, and
 adversarially audit what comes back. Several of these projects carry their own audit harnesses
