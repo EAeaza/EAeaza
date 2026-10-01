@@ -13,7 +13,7 @@ code running on synthetic data.
 
 ### [Marketplace Control Tower](https://github.com/EAeaza/marketplace-control-tower)
 Pulls marketplace, tax, bank and 1C data into one database, reconciles the sources against each other, forecasts demand and answers questions over read-only SQL.
-<br><sub>since Jun 2026, active · 860 commits · Python · SQLite</sub>
+<br><sub>since Jun 2026, active · 867 commits · Python · SQLite</sub>
 
 ### [E-Invoice Stock Ledger](https://github.com/EAeaza/einvoice-stock-ledger)
 Rebuilds a wholesaler's item-level stock from its e-invoices on top of a 1C opening balance, traces every amount to a source line, and routes judgment calls to people.
@@ -25,17 +25,17 @@ Works out which advertisers ran on a roadside LED screen from a two-minute phone
 
 ### [GrantPulse](https://github.com/EAeaza/grantpulse-showcase)
 Finds scholarships and grants, checks every fact against the official page, and publishes source-backed posts to a Telegram channel.
-<br><sub>since Jun 2026, active · 85 commits · Python · SQLite</sub>
+<br><sub>since Jun 2026, active · 88 commits · Python · SQLite</sub>
 
 ### [Agent Fleet Hub](https://github.com/EAeaza/agent-fleet-hub)
 Keeps one developer's machines, coding-agent sessions and GitHub identity in sync — unattended, with its safety rules enforced in code.
-<br><sub>since Sep 2026, active · 155 commits · Python · PowerShell · Bash</sub>
+<br><sub>since Sep 2026, active · 158 commits · Python · PowerShell · Bash</sub>
 
 ---
 
 ### How I work
 
-Almost all of this was built with coding agents — **Claude Code and Codex, 2,085
+Almost all of this was built with coding agents — **Claude Code and Codex, 2,155
 sessions across 3 machines**. That is a working method, not a shortcut: the agent
 writes most of the code; my job is to specify the problem precisely, define the invariants, and
 adversarially audit what comes back. Several of these projects carry their own audit harnesses
