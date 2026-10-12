@@ -21,21 +21,21 @@ Rebuilds a wholesaler's item-level stock from its e-invoices on top of a 1C open
 
 ### [Reklama Radar](https://github.com/EAeaza/reklama-radar)
 Works out which advertisers ran on a roadside LED screen from a two-minute phone video — built on a parallel experiment harness where most results were honestly negative.
-<br><sub>since Aug 2026, active · 180 commits · Python · TypeScript</sub>
+<br><sub>since Aug 2026, active · 181 commits · Python · TypeScript</sub>
 
 ### [GrantPulse](https://github.com/EAeaza/grantpulse-showcase)
 Finds scholarships and grants, checks every fact against the official page, and publishes source-backed posts to a Telegram channel.
-<br><sub>since Jun 2026, active · 90 commits · Python · SQLite</sub>
+<br><sub>since Jun 2026, active · 96 commits · Python · SQLite</sub>
 
 ### [Agent Fleet Hub](https://github.com/EAeaza/agent-fleet-hub)
 Keeps one developer's machines, coding-agent sessions and GitHub identity in sync — unattended, with its safety rules enforced in code.
-<br><sub>since Sep 2026, active · 171 commits · Python · PowerShell · Bash</sub>
+<br><sub>since Sep 2026, active · 173 commits · Python · PowerShell · Bash</sub>
 
 ---
 
 ### How I work
 
-Almost all of this was built with coding agents — **Claude Code and Codex, 2,446
+Almost all of this was built with coding agents — **Claude Code and Codex, 2,487
 sessions across 3 machines**. That is a working method, not a shortcut: the agent
 writes most of the code; my job is to specify the problem precisely, define the invariants, and
 adversarially audit what comes back. Several of these projects carry their own audit harnesses
